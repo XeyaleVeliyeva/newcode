@@ -1,0 +1,226 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: "Roboto", serif;
+  }
+  h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 55px;
+    font-weight: 700;
+  }
+  
+  /*Musa */
+  
+  /* Xeyale */
+  
+  section .section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px ;
+  }
+  
+  .page2-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:50px
+  }
+  
+  .page2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 140px;
+    padding-bottom: 50px;
+  }
+  
+   .page2-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap:35px;
+  }
+   
+  
+  
+  .page2-text h1 {
+    font-size: 55px;
+  }
+  
+  .page2-text p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    
+  }
+  
+  .page2-img1 img{
+    width: 314px;
+    height: 315px;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+  }
+  
+  .page2-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .page2-block{
+    display: flex;
+    gap: 50px;
+  }
+  .page2-block .block{
+    width: 100%;
+  }
+  
+  
+  .block h3{
+    font-size: 25px;
+  }
+  
+  .block p{
+    font-size: 18px;
+    margin-top: 10px;
+    width:61%;
+  }
+  
+  @media screen and (min-width:992px) and (max-width:1279px){
+  
+    .page2 {
+      padding-top: 40px;
+      align-items: flex-end;
+      gap: 100px;
+      padding-bottom: 20px;
+    }
+  
+    .page2-text {
+      gap:25px;
+    }
+  
+    .page2-text h1{
+      font-size: 32px;
+    }
+  
+    .page2-text p{
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 150%;
+    }
+  
+    /* .page2-img1 {
+      width: 181px;
+      height: 182px;
+      align-self: center;
+    } */
+  
+    .page2-img1 img {
+      width: 181px;
+      height: 182px;
+      /* align-self: center; */
+    }
+  
+    .page2-block{
+      gap: 10px;
+    }
+  
+    .page2-img2 img{
+      width: 134px;
+      height: 117px;
+    }
+  
+    .block h3{
+      font-size: 15px;
+    }
+  
+    .block p{
+      font-size: 11px;    
+    }
+  
+  }
+  
+  
+  @media screen and (min-width:320px) and (max-width:991px) {
+  
+    .page2 {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: column;
+      gap: 10px;
+      /*padding-bottom: 50px; */
+    }
+  
+    .page2-text {
+      gap:15px;
+    }
+  
+    .page2-text h1{
+      font-size: 26px;
+    }
+  
+    .page2-text p{
+      font-size: 12px;
+      font-weight: 400;
+    }
+  
+    .page2-img1 {
+      width: 170px;
+      height: 160px;
+      align-self: center;
+    }
+  
+    .page2-img1 img {
+      width: 170px;
+      height: 160px;
+      align-self: center;
+    }
+  
+    .page2-img2 {
+  
+      display: none;
+     
+    }
+  
+    .page2-block{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+    }
+  
+    .block h3{
+      font-size: 12px;
+    }
+  
+    .block p{
+      font-size: 10px;    
+    }
+  
+    .page2-block .block{
+      width: 40%;
+    }
+  
+  
+  
+  
+  
+  
+    
+  }
+  
+  /* Ayxan*/
+  
+  /* Aqil*/
+  
+  /* Kamal*/
+  
+  
