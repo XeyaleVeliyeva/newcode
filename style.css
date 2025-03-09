@@ -21,7 +21,7 @@
   section .section {
     width: 80%;
     margin: 0 auto;
-    padding: 50px ;
+    padding: 50px 0;
   }
   
   .page2-container{
@@ -94,7 +94,7 @@
     width:61%;
   }
   
-  @media screen and (min-width:992px) and (max-width:1279px){
+  @media screen and (min-width:991px) and (max-width:1279px){
   
     .page2 {
       padding-top: 40px;
@@ -131,6 +131,7 @@
   
     .page2-block{
       gap: 10px;
+      width: 75%;
     }
   
     .page2-img2 img{
@@ -194,7 +195,7 @@
     .page2-block{
       display: flex;
       flex-wrap: wrap;
-      gap: 50px;
+      gap: 20px;
     }
   
     .block h3{
@@ -204,9 +205,13 @@
     .block p{
       font-size: 10px;    
     }
+
+    .page2-block{
+      width: 100%;
+    }
   
     .page2-block .block{
-      width: 40%;
+      width: 44%;
     }
   
   
